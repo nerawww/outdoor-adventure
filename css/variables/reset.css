@@ -1,0 +1,89 @@
+/* Réinitialisation des marges et des paddings pour tous les éléments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Réinitialisation des styles de liste */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Réinitialisation des styles de lien */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Réinitialisation des styles de tableau */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Réinitialisation des styles de bouton */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Réinitialisation des styles de champ de formulaire */
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+/* Réinitialisation des styles de blockquote et q */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* Réinitialisation des styles de iframe */
+iframe {
+    border: none;
+}
+
+/* Réinitialisation des styles de figure */
+figure {
+    margin: 0;
+}
+
+/* Réinitialisation des styles de hr */
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+/* Réinitialisation des styles de img */
+img {
+    vertical-align: middle;
+}
+
+/* Réinitialisation des styles de h1 à h6 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}

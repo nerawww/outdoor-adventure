@@ -1,0 +1,74 @@
+header {
+    width: 100%;
+    height: 830px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.65), rgba(20, 20, 20, 0.65)), url(../images/home-hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    width: 66%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 150px;
+    max-width: 100%;
+    padding: 16px 0px;
+    margin-left: 20px;
+}
+
+header nav .burger-menu {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 0px 16px;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 1.5rem;
+}
+
+header p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 40px;
+
+}
+
+header span {
+    width: 62px;
+    height: 2px;
+    background-color: #FB2056;
+}

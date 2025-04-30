@@ -1,0 +1,16 @@
+header button {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    width: 172px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color: #FB2056;
+    border: none;
+    border-radius: 30px;
+    padding: 16px 40px;
+}
