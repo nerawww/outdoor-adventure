@@ -67,7 +67,7 @@ main h2 {
     font-weight: 700;
 }
 
-main div span {
+main span {
     background-color: #FB2056;
     width: 90px;
     height: 3px;
@@ -83,8 +83,6 @@ main article {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 3rem;
 }
 
 .container img {
@@ -94,11 +92,12 @@ main article {
     box-sizing: border-box;
     box-shadow: 10px 10px rgba(64, 64, 64, 0.1);
     border-radius: 8px;
-    margin: 10px;
+    margin: 30px;
 }
 
 .container-text {
-    padding: 30px;
+    width: 90%;
+    padding: 20px;
 }
 
 main article h5 {
@@ -152,7 +151,7 @@ main article h5 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 20px 60px 20px 20px;
+    padding: 10px 60px 10px 10px;
     gap: 1.5rem;
 }
 
@@ -174,6 +173,7 @@ main article h5 {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    gap: 1.5rem;
 }
 
 .destination article div {
@@ -181,7 +181,6 @@ main article h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
 }
 
 .destination img {
@@ -194,9 +193,8 @@ main article h5 {
 
 @media (max-width: 1139px) {
 
-    main img {
-        width: 41vw;
-        height: auto;
+    .quote img {
+        width: 8vw;
     }
 
     main span {
@@ -254,12 +252,16 @@ main article h5 {
 
 @media (max-width: 921px) {
 
-    header p {
-        font-size: 0.9rem;
+    header h3 {
+        font-size: 1.25rem;
     }
 
     header h1 {
         font-size: 2.75rem;
+    }
+
+    main p {
+        font-size: 0.9rem;
     }
 
     main h2 {
@@ -305,9 +307,6 @@ main article h5 {
         display: none;
     }
 
-    header p {
-        font-size: 1.25rem;
-    }
 }
 
 @media (max-width: 767px) {
@@ -318,6 +317,10 @@ main article h5 {
 
     header span {
         width: 12vw;
+    }
+
+    .quote img {
+        width: 21vw;
     }
 
     main span {
@@ -380,9 +383,5 @@ main article h5 {
 
     header h1 {
         font-size: 1.875rem;
-    }
-
-    header h2 {
-        font-size: 1.5rem;
     }
 }
