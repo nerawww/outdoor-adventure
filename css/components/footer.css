@@ -1,0 +1,10 @@
+footer div {
+    color: white;
+    background-color: #191919;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}

@@ -1,4 +1,5 @@
 header {
+    color: white;
     width: 100%;
     height: 830px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.65), rgba(20, 20, 20, 0.65)), url(../images/home-hero-bg.jpg);
@@ -6,11 +7,11 @@ header {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 header nav {
@@ -68,7 +69,7 @@ header h1 {
 }
 
 header span {
+    background-color: #FB2056;
     width: 62px;
     height: 2px;
-    background-color: #FB2056;
 }
