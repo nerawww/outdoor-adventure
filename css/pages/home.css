@@ -96,7 +96,7 @@ main article {
 }
 
 .container-text {
-    width: 90%;
+    width: 450px;
     padding: 20px;
 }
 
@@ -121,11 +121,11 @@ main article h5 {
 
 .event div {
     color: white;
-    width: 1140px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 570px;
+    padding-inline-start: 50%;
 }
 
 .event div span {
@@ -151,7 +151,7 @@ main article h5 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 10px 60px 10px 10px;
+    padding: 10px;
     gap: 1.5rem;
 }
 
@@ -170,7 +170,7 @@ main article h5 {
 
 .destination article {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
@@ -186,6 +186,8 @@ main article h5 {
 .destination img {
     filter: brightness(103%) contrast(96%) saturate(134%) blur(0px) hue-rotate(0deg);
     width: 346px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
     border-radius: 4px;
 }
 
@@ -238,11 +240,6 @@ main article h5 {
 
     .event {
         height: 417px;
-    }
-
-    .event div {
-        width: 100%;
-        padding-inline-start: 50%;
     }
 
     .event div span {
@@ -367,11 +364,22 @@ main article h5 {
     }
 
     .destination div {
-        width: 64vw;
+        width: 93vw;
     }
 
     .destination div h2 {
         width: 60vw;
+    }
+
+    .destination article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination img {
+        width: 97vw;
+        height: auto;
     }
 }
 
