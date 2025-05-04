@@ -151,7 +151,7 @@ main article h5 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 10px;
+    padding: 20px;
     gap: 1.5rem;
 }
 
